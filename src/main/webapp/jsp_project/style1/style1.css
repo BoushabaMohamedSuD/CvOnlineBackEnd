@@ -1,0 +1,2807 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	width: 100%;
+	text-align: center;
+}
+
+:root {
+	--web-view-ids: style1;
+}
+
+#style1 {
+	position: absolute;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1534px;
+	height: 6765px;
+	background-color: rgba(0, 0, 0, 0.878);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	
+	--web-view-name: style1;
+	--web-view-id: style1;
+	--web-enable-deep-linking: true;
+}
+
+
+#Header {
+	position: absolute;
+	width: 100%;
+	height: 66px;
+	left: 64px;
+	top: 37px;
+	overflow: visible;
+}
+
+#Make_your_cv_Online {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	/*color: rgba(245,245,245,1);*/
+	color: yellow;
+}
+
+#LOGO_link {
+	color: yellow;
+	text-decoration: none;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+#nav_bar {
+
+	width: 100%;
+	height: 33px;
+	float: right;
+	margin-top: 10px;
+	overflow: visible;
+	text-align: right;
+	padding-right: 7%;
+}
+
+.ul {
+
+
+
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(245, 245, 245, 1);
+
+	display: inline;
+
+	transition: 1s;
+}
+
+.ul_link {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+
+#QUIK_LOOK {
+	position: absolute;
+	width: 1534px;
+	height: 554px;
+	left: 0px;
+	top: 266px;
+	overflow: visible;
+}
+
+#Mask_Group_1 {
+	position: absolute;
+	width: 1534px;
+	height: 554px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#butto_quik_look {
+	position: absolute;
+	width: 351px;
+	height: 87px;
+	left: 608px;
+	top: 385px;
+	overflow: visible;
+}
+
+#Rectangle_6 {
+	fill: url(#LinearGradientFill1);
+}
+
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	height: 80px;
+	left: 0px;
+	top: 7px;
+}
+
+#quik_look {
+	position: absolute;
+	left: 75px;
+	top: 0px;
+	overflow: visible;
+	width: 224px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(67, 255, 73, 1);
+}
+
+#make_a_quik_look_for_an_exampl {
+	position: absolute;
+	left: 327px;
+	top: 120px;
+	overflow: visible;
+	width: 983px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Tahoma;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(0, 26, 129, 1);
+}
+
+#Line_2 {
+	fill: transparent;
+	stroke: rgb(0, 255, 194);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	top: 1007.5px;
+	left: 213.5px;
+	width: 1108px;
+	height: 3px;
+}
+
+#Line_4 {
+	fill: transparent;
+	stroke: rgb(0, 255, 194);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_4 {
+	overflow: visible;
+	position: absolute;
+	top: 4700.5px;
+	left: 213.5px;
+	width: 1108px;
+	height: 3px;
+}
+
+#Line_5 {
+	fill: transparent;
+	stroke: rgb(0, 255, 194);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	top: 5331.5px;
+	left: 226.5px;
+	width: 1108px;
+	height: 3px;
+}
+
+#header_info {
+	position: absolute;
+	width: 1534px;
+	height: 676px;
+	left: 0px;
+	top: 1134px;
+	overflow: visible;
+}
+
+#holder_input_header {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Rectangle_7 {
+	fill: url(#LinearGradientFill2);
+}
+
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+}
+
+#input_header {
+	position: absolute;
+	width: 580px;
+	height: 552px;
+	left: 73px;
+	top: 93px;
+	overflow: visible;
+}
+
+#name {
+	position: absolute;
+	width: 470.312px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Path_9 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#your_name {
+	opacity: 0.63;
+	position: absolute;
+	left: 38px;
+	top: 0px;
+	overflow: visible;
+	width: 159px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#lastname {
+	position: absolute;
+	width: 470.312px;
+	height: 52px;
+	left: 0px;
+	top: 100px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_2 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_2 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	background-color: black;
+	border-bottom-color: white;
+	border-radius: 20px;
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	padding-left: 20px;
+	color: yellow;
+	border-color: yellow;
+
+}
+
+#your_last_name {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 0px;
+	overflow: visible;
+	width: 221px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#number {
+	position: absolute;
+	width: 470.312px;
+	height: 52px;
+	left: 0px;
+	top: 200px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_3 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_3 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#your_number_ {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 0px;
+	overflow: visible;
+	width: 202px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#adress {
+	position: absolute;
+	width: 470.312px;
+	height: 52px;
+	left: 0px;
+	top: 300px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_4 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_4 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#your_adrees {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 0px;
+	overflow: visible;
+	width: 172px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#email {
+	position: absolute;
+	width: 470.312px;
+	height: 52px;
+	left: 0px;
+	top: 400px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_5 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_5 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#your_email {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 0px;
+	overflow: visible;
+	width: 156px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#picture_upload {
+	position: absolute;
+	width: 580px;
+	height: 52px;
+	left: 0px;
+	top: 500px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_6 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_6 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#Rectangle_4 {
+	fill: rgba(255, 255, 0, 1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 140px;
+	height: 60px;
+	left: 33%;
+	top: -4px;
+	text-align: center;
+	vertical-align: center;
+	border-color: yellow;
+	border-radius: 20px;
+	color: deeppink;
+	background-image: linear-gradient(to top right, yellow 60%, yellowgreen 100%);
+	font-family: fantasy;
+	font-size: 25px;
+
+
+}
+
+#upload {
+	position: absolute;
+	left: 470px;
+	top: 0px;
+	transform: rotate(0deg);
+	transform-origin: left;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 0, 238, 1);
+}
+
+#your_picture_for_cv {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 0px;
+	overflow: visible;
+	width: 278px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#confirm_header {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 767px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Rectangle_8 {
+	fill: rgba(0, 0, 0, 1);
+}
+
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+}
+
+#button_confirme {
+	position: absolute;
+	width: 138.387px;
+	height: 134.054px;
+	left: 338px;
+	top: 477.946px;
+	overflow: visible;
+}
+
+#Ellipse_2 {
+	fill: url(#LinearGradientFill3);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 138.387px;
+	height: 123.054px;
+	left: 0px;
+	top: 11px;
+	border-radius: 50px;
+	font-family: cursive;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: center;
+	color: greenyellow;
+	border-color: yellowgreen;
+	background-image: linear-gradient(to right top, magenta 30%, yellow 100%);
+}
+
+#_ {
+	position: absolute;
+	left: 48.95px;
+	top: 0px;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(221, 0, 255, 1);
+}
+
+#if_you_want_only_edit_this__bl {
+	position: absolute;
+	left: 142px;
+	top: 145px;
+	overflow: visible;
+	width: 531px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0, 255, 128, 1);
+}
+
+#Formation_info {
+	position: absolute;
+	width: 1534px;
+	height: 676px;
+	left: 0px;
+	top: 1810px;
+	overflow: visible;
+}
+
+#holder_input_formation {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 767px;
+	top: 0px;
+	overflow: visible;
+}
+
+
+
+.Rectangle_7_A6_Rectangle_9 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+	
+}
+
+#input_fomation {
+	position: absolute;
+	width: 656px;
+	height: 402px;
+	left: 71px;
+	top: 42px;
+	overflow: visible;
+}
+
+#add_formation {
+	position: absolute;
+	width: 89px;
+	height: 89px;
+	left: 294px;
+	top: 0px;
+	overflow: visible;
+}
+
+.button_add_formation {
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	height: 89px;
+	left: 0px;
+	top: 0px;
+	border-radius: 50%;
+	color: dodgerblue;
+	font-family: fantasy;
+	font-size: 30px;
+	background-image: radial-gradient(greenyellow, yellow);
+	border-color: yellow;
+}
+
+#__A6_Text_16 {
+	position: absolute;
+	left: 35px;
+	top: 4px;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 0, 221, 1);
+}
+
+#formation_field {
+	position: absolute;
+	width: 656px;
+	height: 242.5px;
+	left: 0px;
+	top: 159.5px;
+	overflow: visible;
+}
+
+#formation {
+	position: absolute;
+	width: 470.312px;
+	height: 135.292px;
+	left: 165px;
+	top: 30.5px;
+	overflow: visible;
+}
+
+.Path_9_A6_Path_7 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 470.312px;
+	height: 135.292px;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	background-color: black;
+	border-bottom-color: yellow;
+	border-radius: 20px;
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	padding: 12px 20px;
+
+	color: yellow;
+	resize: none;
+}
+
+#formation_ {
+	opacity: 0.63;
+	position: absolute;
+	left: 53px;
+	top: 30px;
+	overflow: visible;
+	width: 158px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#Group_7 {
+	position: absolute;
+	width: 93.399px;
+	height: 44.094px;
+	left: 57px;
+	top: 79.6px;
+	overflow: visible;
+}
+
+#Polygon_1 {
+	fill: url(#LinearGradientFill6);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Polygon_1 {
+	transform: rotate(90deg);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 93.398px;
+	height: 44.094px;
+}
+
+#Polygon_2 {
+	fill: url(#LinearGradientFill7);
+}
+
+.Polygon_2 {
+	transform: rotate(90deg);
+	overflow: visible;
+	position: absolute;
+	top: 14.093px;
+	left: 0px;
+	width: 90.398px;
+	height: 16.378px;
+}
+
+#ID1 {
+	position: absolute;
+	left: 0px;
+	top: 60.5px;
+	overflow: visible;
+	width: 30px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(247, 255, 0, 1);
+}
+
+#certifica_upload {
+	position: absolute;
+	width: 580px;
+	height: 52px;
+	left: 76px;
+	top: 190.5px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_8 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_8 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#Rectangle_4_A6_Rectangle_10 {
+	fill: rgba(255, 255, 0, 1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Rectangle_4_A6_Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 51px;
+	left: 461px;
+	top: 1px;
+}
+
+#upload_A6_Text_19 {
+	position: absolute;
+	left: 470px;
+	top: 0px;
+	transform: rotate(0deg);
+	transform-origin: left;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 0, 238, 1);
+}
+
+#certifica_formation__optional_ {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 5px;
+	overflow: visible;
+	width: 369px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#Line_3 {
+	fill: transparent;
+	stroke: rgb(0, 220, 255);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 0;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 67.5px;
+	width: 485px;
+	height: 5px;
+}
+
+#confirm_formation {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Rectangle_8_A6_Rectangle_11 {
+	fill: rgba(0, 0, 0, 1);
+}
+
+.Rectangle_8_A6_Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+}
+
+#button_confirme_A6_Group_26 {
+	position: absolute;
+	width: 138.387px;
+	height: 134.054px;
+	left: 338px;
+	top: 477.946px;
+	overflow: visible;
+}
+
+#Ellipse_2_A6_Ellipse_3 {
+	fill: url(#LinearGradientFill8);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Ellipse_2_A6_Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 138.387px;
+	height: 123.054px;
+	left: 0px;
+	top: 11px;
+}
+
+#__A6_Text_21 {
+	position: absolute;
+	left: 48.95px;
+	top: 0px;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(221, 0, 255, 1);
+}
+
+#if_you_want_only_edit_this__bl_A6_Text_22 {
+	position: absolute;
+	left: 142px;
+	top: 145px;
+	overflow: visible;
+	width: 531px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0, 255, 128, 1);
+}
+
+#competance_info {
+	position: absolute;
+	width: 1533.774px;
+	height: 676px;
+	left: 0px;
+	top: 2486px;
+	overflow: visible;
+}
+
+#holder_input_competances {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+.Rectangle_7_A6_Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+
+}
+
+#input_competances {
+	position: absolute;
+	width: 656px;
+	height: 402px;
+	left: 71px;
+	top: 42px;
+	overflow: visible;
+}
+
+#add_competances {
+	position: absolute;
+	width: 89px;
+	height: 89px;
+	left: 294px;
+	top: 0px;
+	overflow: visible;
+}
+
+#button_add_formation_A6_Ellipse_4 {
+	fill: url(#LinearGradientFill10);
+}
+
+.button_add_formation_A6_Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	height: 89px;
+	left: 0px;
+	top: 0px;
+}
+
+#__A6_Text_23 {
+	position: absolute;
+	left: 35px;
+	top: 4px;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 0, 221, 1);
+}
+
+#competances_field {
+	position: absolute;
+	width: 656px;
+	height: 242.5px;
+	left: 0px;
+	top: 159.5px;
+	overflow: visible;
+}
+
+#competances {
+	position: absolute;
+	width: 470.312px;
+	height: 135.292px;
+	left: 165px;
+	top: 30.5px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_9 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_9 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 470.312px;
+	height: 135.292px;
+}
+
+#competance {
+	opacity: 0.63;
+	position: absolute;
+	left: 53px;
+	top: 30px;
+	overflow: visible;
+	width: 174px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#Group_7_A6_Group_33 {
+	position: absolute;
+	width: 93.399px;
+	height: 44.094px;
+	left: 57px;
+	top: 79.6px;
+	overflow: visible;
+}
+
+#Polygon_1_A6_Polygon_3 {
+	fill: url(#LinearGradientFill11);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Polygon_1_A6_Polygon_3 {
+	transform: rotate(90deg);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 93.399px;
+	height: 44.094px;
+}
+
+#Polygon_2_A6_Polygon_4 {
+	fill: url(#LinearGradientFill12);
+}
+
+.Polygon_2_A6_Polygon_4 {
+	transform: rotate(90deg);
+	overflow: visible;
+	position: absolute;
+	top: 14.093px;
+	left: 0px;
+	width: 90.399px;
+	height: 16.378px;
+}
+
+#ID1_A6_Text_25 {
+	position: absolute;
+	left: 0px;
+	top: 60.5px;
+	overflow: visible;
+	width: 30px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(247, 255, 0, 1);
+}
+
+#certifica_upload_A6_Group_34 {
+	position: absolute;
+	width: 580px;
+	height: 52px;
+	left: 76px;
+	top: 190.5px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_10 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_10 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 1px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#Rectangle_4_A6_Rectangle_13 {
+	fill: rgba(255, 255, 0, 1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Rectangle_4_A6_Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 51px;
+	left: 461px;
+	top: 1px;
+}
+
+#upload_A6_Text_26 {
+	position: absolute;
+	left: 470px;
+	top: 0px;
+	transform: rotate(0deg);
+	transform-origin: left;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 0, 238, 1);
+}
+
+#certifica_competance__optional {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 5px;
+	overflow: visible;
+	width: 393px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#Line_3_A6_Line_5 {
+	fill: transparent;
+	stroke: rgb(0, 220, 255);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 0;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_3_A6_Line_5 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 67.5px;
+	width: 485px;
+	height: 5px;
+}
+
+#confirm_competance {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 766.774px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Rectangle_8_A6_Rectangle_14 {
+	fill: rgba(0, 0, 0, 1);
+}
+
+.Rectangle_8_A6_Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+}
+
+#button_confirme_A6_Group_36 {
+	position: absolute;
+	width: 138.387px;
+	height: 134.054px;
+	left: 338px;
+	top: 477.946px;
+	overflow: visible;
+}
+
+#Ellipse_2_A6_Ellipse_5 {
+	fill: url(#LinearGradientFill13);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Ellipse_2_A6_Ellipse_5 {
+	position: absolute;
+	overflow: visible;
+	width: 138.387px;
+	height: 123.054px;
+	left: 0px;
+	top: 11px;
+}
+
+#__A6_Text_28 {
+	position: absolute;
+	left: 48.95px;
+	top: 0px;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(221, 0, 255, 1);
+}
+
+#if_you_want_only_edit_this__bl_A6_Text_29 {
+	position: absolute;
+	left: 142px;
+	top: 145px;
+	overflow: visible;
+	width: 531px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0, 255, 128, 1);
+}
+
+#langue_info {
+	position: absolute;
+	width: 1534px;
+	height: 677px;
+	left: 0px;
+	top: 3161px;
+	overflow: visible;
+}
+
+#holder_input_langue {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Rectangle_7_A6_Rectangle_15 {
+	fill: url(#LinearGradientFill14);
+}
+
+.Rectangle_7_A6_Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+}
+
+#input_langue {
+	position: absolute;
+	width: 656px;
+	height: 402px;
+	left: 75px;
+	top: 43px;
+	overflow: visible;
+}
+
+#add_langue {
+	position: absolute;
+	width: 89px;
+	height: 89px;
+	left: 294px;
+	top: 0px;
+	overflow: visible;
+}
+
+#button_add_formation_A6_Ellipse_6 {
+	fill: url(#LinearGradientFill15);
+}
+
+.button_add_formation_A6_Ellipse_6 {
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	height: 89px;
+	left: 0px;
+	top: 0px;
+}
+
+#__A6_Text_30 {
+	position: absolute;
+	left: 35px;
+	top: 4px;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 0, 221, 1);
+}
+
+#langue_field {
+	position: absolute;
+	width: 656px;
+	height: 242.5px;
+	left: 0px;
+	top: 159.5px;
+	overflow: visible;
+}
+
+#competances_A6_Group_42 {
+	position: absolute;
+	width: 397px;
+	height: 70px;
+	left: 170px;
+	top: 65.5px;
+	overflow: visible;
+}
+
+#langue_input {
+	position: absolute;
+	width: 267.488px;
+	height: 53.115px;
+	left: 0px;
+	top: 10px;
+	overflow: visible;
+}
+
+.Path_9_A6_Path_11 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 0.459px;
+	left: 0px;
+	width: 267.488px;
+	height: 52.655px;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	background-color: black;
+	border-bottom-color: yellow;
+	border-radius: 20px;
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	padding-left: 20px;
+	color: yellow;
+
+
+}
+
+#langue {
+	opacity: 0.63;
+	position: absolute;
+	left: 53px;
+	top: 0px;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#percentage_input {
+	position: absolute;
+	width: 119px;
+	height: 70px;
+	left: 278px;
+	top: 0px;
+	overflow: visible;
+}
+
+.percentage {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 51px;
+	left: 0px;
+	top: 12px;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	background-color: black;
+	border-bottom-color: yellow;
+	border-radius: 20px;
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	padding-left: 20px;
+	color: yellow;
+	text-align: center;
+
+
+}
+
+#__A6_Text_32 {
+	opacity: 0.71;
+	position: absolute;
+	left: 45px;
+	top: 0px;
+	overflow: visible;
+	width: 30px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(247, 255, 0, 1);
+}
+
+#Group_7_A6_Group_45 {
+	position: absolute;
+	width: 93.399px;
+	height: 44.094px;
+	left: 57px;
+	top: 79.6px;
+	overflow: visible;
+}
+
+#Polygon_1_A6_Polygon_5 {
+	fill: url(#LinearGradientFill16);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Polygon_1_A6_Polygon_5 {
+	transform: rotate(90deg);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 93.399px;
+	height: 44.094px;
+}
+
+#Polygon_2_A6_Polygon_6 {
+	fill: url(#LinearGradientFill17);
+}
+
+.Polygon_2_A6_Polygon_6 {
+	transform: rotate(90deg);
+	overflow: visible;
+	position: absolute;
+	top: 14.093px;
+	left: 0px;
+	width: 90.399px;
+	height: 16.378px;
+}
+
+#ID1_A6_Text_33 {
+	position: absolute;
+	left: 0px;
+	top: 60.5px;
+	overflow: visible;
+	width: 30px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(247, 255, 0, 1);
+}
+
+#certifica_upload_A6_Group_46 {
+	position: absolute;
+	width: 580px;
+	height: 54px;
+	left: 76px;
+	top: 188.5px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_12 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_12 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#Rectangle_4_A6_Rectangle_17 {
+	fill: rgba(255, 255, 0, 1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Rectangle_4_A6_Rectangle_17 {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 51px;
+	left: 461px;
+	top: 3px;
+}
+
+#upload_A6_Text_34 {
+	position: absolute;
+	left: 471px;
+	top: 0px;
+	transform: rotate(0deg);
+	transform-origin: left;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 0, 238, 1);
+}
+
+#certifica_langue__optional_ {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 7px;
+	overflow: visible;
+	width: 324px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#Line_3_A6_Line_6 {
+	fill: transparent;
+	stroke: rgb(0, 220, 255);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 0;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_3_A6_Line_6 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 67.5px;
+	width: 485px;
+	height: 5px;
+}
+
+#confirm_langue {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 767px;
+	top: 1px;
+	overflow: visible;
+}
+
+#Rectangle_8_A6_Rectangle_18 {
+	fill: rgba(0, 0, 0, 1);
+}
+
+.Rectangle_8_A6_Rectangle_18 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+}
+
+#button_confirme_A6_Group_48 {
+	position: absolute;
+	width: 138.387px;
+	height: 134.054px;
+	left: 338px;
+	top: 477.946px;
+	overflow: visible;
+}
+
+#Ellipse_2_A6_Ellipse_7 {
+	fill: url(#LinearGradientFill18);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Ellipse_2_A6_Ellipse_7 {
+	position: absolute;
+	overflow: visible;
+	width: 138.387px;
+	height: 123.054px;
+	left: 0px;
+	top: 11px;
+}
+
+#__A6_Text_36 {
+	position: absolute;
+	left: 48.95px;
+	top: 0px;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(221, 0, 255, 1);
+}
+
+#if_you_want_only_edit_this__bl_A6_Text_37 {
+	position: absolute;
+	left: 142px;
+	top: 145px;
+	overflow: visible;
+	width: 531px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0, 255, 128, 1);
+}
+
+#loisir_info {
+	position: absolute;
+	width: 1534px;
+	height: 676px;
+	left: 0px;
+	top: 3838px;
+	overflow: visible;
+}
+
+#holder_input_langue_A6_Group_50 {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 767px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Rectangle_7_A6_Rectangle_19 {
+	fill: url(#LinearGradientFill19);
+}
+
+.Rectangle_7_A6_Rectangle_19 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+}
+
+#input_langue_A6_Group_51 {
+	position: absolute;
+	width: 567px;
+	height: 295px;
+	left: 71px;
+	top: 42px;
+	overflow: visible;
+}
+
+#add_langue_A6_Group_52 {
+	position: absolute;
+	width: 89px;
+	height: 89px;
+	left: 294px;
+	top: 0px;
+	overflow: visible;
+}
+
+#button_add_formation_A6_Ellipse_8 {
+	fill: url(#LinearGradientFill20);
+}
+
+.button_add_formation_A6_Ellipse_8 {
+	position: absolute;
+	overflow: visible;
+	width: 89px;
+	height: 89px;
+	left: 0px;
+	top: 0px;
+}
+
+#__A6_Text_38 {
+	position: absolute;
+	left: 35px;
+	top: 4px;
+	overflow: visible;
+	width: 24px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 0, 221, 1);
+}
+
+#langue_field_A6_Group_53 {
+	position: absolute;
+	width: 567px;
+	height: 135.5px;
+	left: 0px;
+	top: 159.5px;
+	overflow: visible;
+}
+
+#competances_A6_Group_54 {
+	position: absolute;
+	width: 397px;
+	height: 70px;
+	left: 170px;
+	top: 65.5px;
+	overflow: visible;
+}
+
+#langue_input_A6_Group_55 {
+	position: absolute;
+	width: 267.488px;
+	height: 53.115px;
+	left: 0px;
+	top: 10px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_13 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_13 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 0.459px;
+	left: 0px;
+	width: 267.488px;
+	height: 52.655px;
+}
+
+#loisir {
+	opacity: 0.63;
+	position: absolute;
+	left: 53px;
+	top: 0px;
+	overflow: visible;
+	width: 71px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#percentage_input_A6_Group_56 {
+	position: absolute;
+	width: 119px;
+	height: 70px;
+	left: 278px;
+	top: 0px;
+	overflow: visible;
+}
+
+#percentage_A6_Rectangle_20 {
+	fill: rgba(7, 7, 2, 1);
+	stroke: rgb(255, 213, 0);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.percentage_A6_Rectangle_20 {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 51px;
+	left: 0px;
+	top: 12px;
+}
+
+#__A6_Text_40 {
+	opacity: 0.71;
+	position: absolute;
+	left: 45px;
+	top: 0px;
+	overflow: visible;
+	width: 30px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(247, 255, 0, 1);
+}
+
+#Group_7_A6_Group_57 {
+	position: absolute;
+	width: 93.399px;
+	height: 44.094px;
+	left: 57px;
+	top: 79.6px;
+	overflow: visible;
+}
+
+#Polygon_1_A6_Polygon_7 {
+	fill: url(#LinearGradientFill21);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Polygon_1_A6_Polygon_7 {
+	transform: rotate(90deg);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 93.398px;
+	height: 44.094px;
+}
+
+#Polygon_2_A6_Polygon_8 {
+	fill: url(#LinearGradientFill22);
+}
+
+.Polygon_2_A6_Polygon_8 {
+	transform: rotate(90deg);
+	overflow: visible;
+	position: absolute;
+	top: 14.093px;
+	left: 0px;
+	width: 90.398px;
+	height: 16.378px;
+}
+
+#ID1_A6_Text_41 {
+	position: absolute;
+	left: 0px;
+	top: 60.5px;
+	overflow: visible;
+	width: 30px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(247, 255, 0, 1);
+}
+
+#Line_3_A6_Line_7 {
+	fill: transparent;
+	stroke: rgb(0, 220, 255);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-dasharray: 100;
+	stroke-dashoffset: 0;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_3_A6_Line_7 {
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 67.5px;
+	width: 485px;
+	height: 5px;
+}
+
+#confirm_langue_A6_Group_58 {
+	position: absolute;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Rectangle_8_A6_Rectangle_21 {
+	fill: rgba(0, 0, 0, 1);
+}
+
+.Rectangle_8_A6_Rectangle_21 {
+	position: absolute;
+	overflow: visible;
+	width: 767px;
+	height: 676px;
+	left: 0px;
+	top: 0px;
+}
+
+#button_confirme_A6_Group_59 {
+	position: absolute;
+	width: 138.387px;
+	height: 134.054px;
+	left: 338px;
+	top: 477.946px;
+	overflow: visible;
+}
+
+#Ellipse_2_A6_Ellipse_9 {
+	fill: url(#LinearGradientFill23);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Ellipse_2_A6_Ellipse_9 {
+	position: absolute;
+	overflow: visible;
+	width: 138.387px;
+	height: 123.054px;
+	left: 0px;
+	top: 11px;
+}
+
+#__A6_Text_42 {
+	position: absolute;
+	left: 48.95px;
+	top: 0px;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(221, 0, 255, 1);
+}
+
+#if_you_want_only_edit_this__bl_A6_Text_43 {
+	position: absolute;
+	left: 142px;
+	top: 145px;
+	overflow: visible;
+	width: 531px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(0, 255, 128, 1);
+}
+
+#button_general_confirm {
+	position: absolute;
+	width: 386px;
+	height: 137px;
+	left: 574px;
+	top: 6469px;
+	overflow: visible;
+}
+
+
+
+.Rectangle_9 {
+	position: absolute;
+	overflow: visible;
+	width: 386px;
+	height: 137px;
+	left: 0px;
+	top: 0px;
+	background-image: linear-gradient(to right top ,hotpink 60%,red 100%);
+	border-radius: 30px;
+	text-align: center;
+	vertical-align: center;
+	font-family: fantasy;
+	font-size: 40px;
+	color: yellow;
+	border-color: hotpink;
+}
+
+#confirme {
+	position: absolute;
+	left: 105px;
+	top: 34px;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#Upload_your_projects {
+	position: absolute;
+	left: 504px;
+	top: 4803px;
+	overflow: visible;
+	width: 527px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(0, 255, 111, 1);
+}
+
+#your_project_should_be_returne {
+	position: absolute;
+	left: 469px;
+	top: 4929px;
+	overflow: visible;
+	width: 597px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	color: rgba(242, 248, 245, 1);
+}
+
+#upload_project {
+	position: absolute;
+	width: 1417px;
+	height: 727.56px;
+	left: 96px;
+	top: 5402px;
+	overflow: visible;
+}
+
+#Line_6 {
+	fill: transparent;
+	stroke: rgb(0, 255, 194);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Line_6 {
+	overflow: visible;
+	position: absolute;
+	top: 727.56px;
+	left: 117.5px;
+	width: 1108px;
+	height: 3px;
+}
+
+#project_upload {
+	position: absolute;
+	width: 580px;
+	height: 54px;
+	left: 837px;
+	top: 8px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_14 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_14 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#Rectangle_4_A6_Rectangle_23 {
+	fill: rgba(255, 255, 0, 1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Rectangle_4_A6_Rectangle_23 {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 51px;
+	left: 461px;
+	top: 3px;
+}
+
+#upload_A6_Text_47 {
+	position: absolute;
+	left: 471px;
+	top: 0px;
+	transform: rotate(0deg);
+	transform-origin: left;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 0, 238, 1);
+}
+
+#your_project {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 7px;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#rapport_upload {
+	position: absolute;
+	width: 580px;
+	height: 54px;
+	left: 408px;
+	top: 562.623px;
+	overflow: visible;
+}
+
+#Path_9_A6_Path_15 {
+	fill: rgba(16, 3, 3, 1);
+	stroke: rgb(238, 255, 0);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_9_A6_Path_15 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+}
+
+#Rectangle_4_A6_Rectangle_24 {
+	fill: rgba(255, 255, 0, 1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Rectangle_4_A6_Rectangle_24 {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 51px;
+	left: 461px;
+	top: 3px;
+}
+
+#upload_A6_Text_49 {
+	position: absolute;
+	left: 471px;
+	top: 0px;
+	transform: rotate(0deg);
+	transform-origin: left;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 0, 238, 1);
+}
+
+#rapport__optional_ {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 7px;
+	overflow: visible;
+	width: 231px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#choix_format {
+	position: absolute;
+	width: 575px;
+	height: 71px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#caucher_windows {
+	position: absolute;
+	width: 263px;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Ellipse_4 {
+	fill: rgba(255, 255, 255, 0);
+	stroke: rgb(255, 230, 0);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	height: 49px;
+	left: 214px;
+	top: 13px;
+}
+
+#windows {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 175px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 0, 187, 1);
+}
+
+#caucher_linux {
+	position: absolute;
+	width: 209px;
+	height: 70px;
+	left: 366px;
+	top: 1px;
+	overflow: visible;
+}
+
+#Ellipse_3 {
+	fill: rgba(255, 255, 255, 0);
+	stroke: rgb(255, 230, 0);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	height: 49px;
+	left: 160px;
+	top: 10px;
+}
+
+#linux {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 0, 187, 1);
+}
+
+#description {
+	position: absolute;
+	width: 1145px;
+	height: 307.808px;
+	left: 130px;
+	top: 238.064px;
+	overflow: visible;
+}
+
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 1145px;
+	height: 307.809px;
+	left: 0px;
+	top: 0px;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	background-color: black;
+	border-bottom-color: yellow;
+	border-radius: 20px;
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	padding: 12px 20px;
+
+	color: yellow;
+	resize: none;
+}
+
+#description_A6_Text_53 {
+	opacity: 0.77;
+	position: absolute;
+	left: 50px;
+	top: 13px;
+	overflow: visible;
+	width: 167px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -10px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 247, 0, 1);
+}
+
+#name_A6_Group_68 {
+	position: absolute;
+	width: 1145px;
+	height: 84.587px;
+	left: 126px;
+	top: 144.064px;
+	overflow: visible;
+}
+
+.Rectangle_12_A6_Rectangle_26 {
+	position: absolute;
+	overflow: visible;
+	width: 1145px;
+	height: 84.588px;
+	left: 0px;
+	top: 0px;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	background-color: black;
+	border-bottom-color: yellow;
+	border-radius: 20px;
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	padding-left: 20px;
+	color: yellow;
+
+}
+
+#name_A6_Text_54 {
+	opacity: 0.77;
+	position: absolute;
+	left: 92px;
+	top: 13px;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -10px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 247, 0, 1);
+}
+
+#link {
+	position: absolute;
+	width: 1418.5px;
+	height: 101px;
+	left: 80.5px;
+	top: 6251.5px;
+	overflow: visible;
+}
+
+#link_upload {
+	position: absolute;
+	width: 580px;
+	height: 54px;
+	left: 838.5px;
+	top: 23.5px;
+	overflow: visible;
+}
+
+
+
+.Path_9_A6_Path_16 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 470.312px;
+	height: 51px;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	background-color: black;
+	border-bottom-color: yellow;
+	border-radius: 20px;
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	padding-left: 20px;
+	color: yellow;
+
+}
+
+#Rectangle_4_A6_Rectangle_27 {
+	fill: rgba(255, 255, 0, 1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Rectangle_4_A6_Rectangle_27 {
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	height: 51px;
+	left: 461px;
+	top: 3px;
+}
+
+#upload_A6_Text_55 {
+	position: absolute;
+	left: 471px;
+	top: 0px;
+	transform: rotate(0deg);
+	transform-origin: left;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 0, 238, 1);
+}
+
+#your_link {
+	opacity: 0.67;
+	position: absolute;
+	left: 38px;
+	top: 7px;
+	overflow: visible;
+	width: 113px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#if_you_have_an_open_source_pro {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 613px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 29px;
+	color: rgba(255, 105, 6, 1);
+}
+
+#button_add_project {
+	position: absolute;
+	width: 138.387px;
+	height: 134.054px;
+	left: 711px;
+	top: 5094.946px;
+	overflow: visible;
+}
+
+.Ellipse_2_A6_Ellipse_12 {
+	position: absolute;
+	overflow: visible;
+	width: 138.387px;
+	height: 123.054px;
+	left: 0px;
+	top: 11px;
+	border-radius: 50%;
+	color: dodgerblue;
+	font-family: fantasy;
+	font-size: 30px;
+	background-image: radial-gradient(greenyellow, yellow);
+	border-color: yellow;
+}
+
+#__A6_Text_58 {
+	position: absolute;
+	left: 48.95px;
+	top: 0px;
+	overflow: visible;
+	width: 41px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 70px;
+	color: rgba(221, 0, 255, 1);
+}
+
+.uplaod_input {
+	visibility: hidden;
+}
+
+::placeholder {
+	color: yellow;
+	opacity: 0.8;
+}

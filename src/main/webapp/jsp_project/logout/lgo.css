@@ -1,0 +1,198 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	width: 100%;
+}
+
+:root {
+	--web-view-ids: Logout;
+}
+
+#Logout {
+	position: absolute;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1534px;
+	height: 1460px;
+	background-color: rgba(1, 1, 1, 0.878);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	--web-view-name: Logout;
+	--web-view-id: Logout;
+	--web-enable-deep-linking: true;
+}
+
+#background {
+	opacity: 0.68;
+	fill: url(#RadialGradientFill1);
+}
+
+.background {
+	position: absolute;
+	overflow: visible;
+	width: 1534px;
+	height: 1460px;
+	left: 0px;
+	top: 0px;
+}
+
+#Header {
+	position: absolute;
+	width: 100%;
+	height: 66px;
+	left: 64px;
+	top: 37px;
+	overflow: visible;
+}
+
+#Make_your_cv_Online {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	/*color: rgba(245,245,245,1);*/
+	color: yellow;
+}
+
+#LOGO_link {
+	color: yellow;
+	text-decoration: none;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+#nav_bar {
+
+	width: 100%;
+	height: 33px;
+	float: right;
+	margin-top: 10px;
+	overflow: visible;
+	text-align: right;
+	padding-right: 7%;
+}
+
+.ul {
+
+
+
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(245, 245, 245, 1);
+
+	display: inline;
+
+	transition: 1s;
+}
+
+.ul_link {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+#Welcome {
+	transform: rotate(-1deg);
+	transform-origin: left;
+	position: absolute;
+	width: 316.793px;
+	height: 234.834px;
+	left: 606.388px;
+	top: 610.136px;
+	overflow: visible;
+}
+
+#Holder_Welcome {
+	fill: url(#RadialGradientFill2);
+	stroke: rgba(255, 247, 0, 0);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Holder_Welcome {
+	position: absolute;
+	overflow: visible;
+	width: 320.843px;
+	height: 240.327px;
+	left: 0px;
+	top: 0px;
+}
+
+#Welcome_A1_Text_5 {
+	position: absolute;
+	left: 66.674px;
+	top: 77.298px;
+	overflow: visible;
+	width: 185px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45px;
+	color: rgba(255, 255, 255, 1);
+}
+
+#Log_out {
+	position: absolute;
+	width: 206.394px;
+	height: 116.371px;
+	left: 663.681px;
+	top: 662px;
+	overflow: visible;
+}
+
+#log_out {
+	
+	background-image: linear-gradient(to right top,yellow 60%,green 100%);
+	border: none;
+	border-radius: 100px;
+	
+	
+}
+
+.log_out {
+	position: absolute;
+	overflow: visible;
+	width: 206.394px;
+	height: 125px;
+	left: 0px;
+	top: 0px;
+}
+
+#LOGOUT {
+	position: absolute;
+	left: 33.197px;
+	top: 34.686px;
+	overflow: visible;
+	width: 141px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,363 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	width: 100%;
+}
+
+:root {
+	--web-view-ids: details_projetc;
+}
+
+#details_projetc {
+	position: absolute;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1534px;
+	height: 1530px;
+	background-color: rgba(1, 1, 1, 0.878);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	
+	--web-view-name: details_projetc;
+	--web-view-id: details_projetc;
+	--web-enable-deep-linking: true;
+}
+
+
+#Header {
+	position: absolute;
+	width: 100%;
+	height: 66px;
+	left: 64px;
+	top: 37px;
+	overflow: visible;
+}
+
+#Make_your_cv_Online {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	/*color: rgba(245,245,245,1);*/
+	color: yellow;
+}
+
+#LOGO_link {
+	color: yellow;
+	text-decoration: none;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+#nav_bar {
+
+	width: 100%;
+	height: 33px;
+	float: right;
+	margin-top: 10px;
+	overflow: visible;
+	text-align: right;
+	padding-right: 7%;
+}
+
+.ul {
+
+
+
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(245, 245, 245, 1);
+
+	display: inline;
+
+	transition: 1s;
+}
+
+.ul_link {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+
+#Welcome_Boushaba_Mohamed {
+	position: absolute;
+	left: 567px;
+	top: 166px;
+	overflow: visible;
+	width: 401px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#downlaod_button {
+	position: absolute;
+	width: 599.427px;
+	height: 106.339px;
+	left: 467px;
+	top: 1299.297px;
+	overflow: visible;
+}
+
+#download_raport {
+	position: absolute;
+	width: 233.427px;
+	height: 106.339px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+
+
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 233.427px;
+	height: 106.339px;
+	left: 0px;
+	top: 0px;
+	border-radius: 30px;
+	border-color: yellow;
+	color: deeppink;
+	font-family: fantasy;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: center;
+	background-image: linear-gradient(to right top ,greenyellow 60%,yellow 100%);
+	
+}
+
+#raport {
+	position: absolute;
+	left: 64px;
+	top: 25.421px;
+	overflow: visible;
+	width: 108px;
+	white-space: nowrap;
+	line-height: 53px;
+	margin-top: -10.5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	color: rgba(238, 0, 255, 1);
+}
+
+#download_project {
+	position: absolute;
+	width: 233.427px;
+	height: 106.339px;
+	left: 366px;
+	top: 0px;
+	overflow: visible;
+}
+
+
+
+.Rectangle_11_A5_Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 233.427px;
+	height: 106.339px;
+	left: 0px;
+	top: 0px;
+	border-radius: 30px;
+	border-color: yellow;
+	color: deeppink;
+	font-family: fantasy;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: center;
+	background-image: linear-gradient(to right top ,greenyellow 60%,yellow 100%);
+}
+
+#project {
+	position: absolute;
+	left: 61px;
+	top: 25.421px;
+	overflow: visible;
+	width: 114px;
+	white-space: nowrap;
+	line-height: 53px;
+	margin-top: -10.5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	color: rgba(238, 0, 255, 1);
+}
+
+#barrier {
+	position: absolute;
+	width: 285.394px;
+	height: 743.544px;
+	left: 442.998px;
+	top: 315.885px;
+	overflow: visible;
+}
+
+#Path_5 {
+	fill: url(#LinearGradientFill3);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_5 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 111.355px;
+	left: 130.405px;
+	width: 34.885px;
+	height: 519.669px;
+}
+
+#Path_4 {
+	filter: drop-shadow(20px 20px 20px rgba(28, 255, 187, 1));
+	fill: url(#LinearGradientFill4);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_4 {
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 55.423px;
+	width: 290.974px;
+	height: 266.217px;
+}
+
+#Path_7 {
+	filter: drop-shadow(20px 20px 20px rgba(28, 255, 187, 1));
+	fill: url(#LinearGradientFill5);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+
+.Path_7 {
+	transform: rotate(182deg);
+	overflow: visible;
+	position: absolute;
+	top: 536.37px;
+	left: 0px;
+	width: 300.037px;
+	height: 269.089px;
+}
+
+#Dowload {
+	position: absolute;
+	left: 659px;
+	top: 1139px;
+	overflow: visible;
+	width: 217px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(8, 255, 0, 1);
+}
+
+#Description {
+	position: absolute;
+	left: 864px;
+	top: 392px;
+	overflow: visible;
+	width: 285px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(8, 255, 0, 1);
+}
+
+#Name {
+	position: absolute;
+	left: 121px;
+	top: 392px;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(8, 255, 0, 1);
+}
+
+#Calculatrice_Scientifique {
+	position: absolute;
+	left: 162px;
+	top: 552px;
+	overflow: visible;
+	width: 351px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(0, 194, 255, 1);
+}
+
+#faire_des_operation_mathematiq {
+	position: absolute;
+	left: 762px;
+	top: 552px;
+	overflow: visible;
+	width: 733px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(0, 194, 255, 1);
+}

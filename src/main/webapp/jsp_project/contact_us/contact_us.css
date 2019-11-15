@@ -1,0 +1,268 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	width: 100%;
+
+}
+
+:root {
+	--web-view-ids: contact_us;
+}
+
+#contact_us {
+	position: absolute;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1534px;
+	height: 962px;
+	background-color: rgba(1, 1, 1, 0.878);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	
+
+	--web-view-name: contact_us;
+	--web-view-id: contact_us;
+	--web-enable-deep-linking: true;
+}
+
+
+#Header {
+	position: absolute;
+	width: 100%;
+	height: 66px;
+	left: 64px;
+	top: 37px;
+	overflow: visible;
+
+}
+
+#Make_your_cv_Online {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	/*color: rgba(245,245,245,1);*/
+	color: yellow;
+}
+
+#LOGO_link {
+	color: yellow;
+	text-decoration: none;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+#nav_bar {
+
+	width: 100%;
+	height: 33px;
+	float: right;
+	margin-top: 10px;
+	overflow: visible;
+	text-align: right;
+	padding-right: 7%;
+
+}
+
+.ul {
+
+
+
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(245, 245, 245, 1);
+
+	display: inline;
+
+	transition: 1s;
+
+}
+
+.ul_link {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+
+
+#field_input {
+	position: absolute;
+	width: 956px;
+	height: 429px;
+	left: 289px;
+	top: 384px;
+	overflow: visible;
+}
+
+#input_object {
+	position: absolute;
+	width: 956px;
+	height: 64px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#object {
+
+
+
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	background-color: black;
+	border-bottom-color: yellow;
+	border-radius: 20px;
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	padding-left: 20px;
+
+	color: yellow;
+}
+
+.object {
+	position: absolute;
+	overflow: visible;
+	width: 956px;
+	height: 64px;
+	left: 0px;
+	top: 0px;
+}
+
+#Object {
+	opacity: 0.62;
+	position: absolute;
+	left: 57px;
+	top: 6px;
+	overflow: visible;
+	width: 98px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -10px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#input_message {
+	position: absolute;
+	width: 949px;
+	height: 338px;
+	left: 4px;
+	top: 91px;
+	overflow: visible;
+}
+
+textarea{
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	box-sizing: border-box;
+	transition: 1s;
+	background-color: black;
+	border-bottom-color: yellow;
+	border-radius: 20px;
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	 padding: 12px 20px;
+	
+	color: yellow;
+	resize: none;
+}
+
+#Message {
+	opacity: 0.62;
+	position: absolute;
+	left: 41px;
+	top: 13px;
+	overflow: visible;
+	width: 121px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -10px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255, 255, 0, 1);
+}
+
+#Welcome_Boushaba_Mohamed {
+	position: absolute;
+	left: 567px;
+	top: 166px;
+	overflow: visible;
+	width: 401px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255, 255, 0, 1);
+}
+
+
+
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 171px;
+	height: 66px;
+	left: 682px;
+	top: 857px;
+	border-radius: 20px;
+	color: deeppink;
+	font-family: fantasy;
+	font-size: 25px;
+	border-color: yellow;
+	background-image: linear-gradient(to top right,yellow 60%,  greenyellow 100% )
+}
+
+#Send {
+	position: absolute;
+	left: 730px;
+	top: 864px;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	line-height: 50px;
+	margin-top: -10px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(238, 0, 255, 1);
+}
+
+
+::placeholder {
+	color: yellow;
+}

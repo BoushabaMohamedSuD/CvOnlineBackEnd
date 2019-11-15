@@ -1,0 +1,448 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	width: 100%;
+}
+:root {
+	--web-view-ids: index;
+}
+
+#index {
+	position: absolute;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1534px;
+	height: 2423px;
+	background-color: rgba(1,1,1,0.878);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-enable-deep-linking: true;
+}
+#Header_full {
+	position: absolute;
+	width: 1534px;
+	height: 714px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#NoPath___Copie__18_ {
+	opacity: 0.64;
+	fill: url(#NoPath___Copie__18__A8_Rectangle_2_pattern);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.NoPath___Copie__18_ {
+	position: absolute;
+	overflow: visible;
+	width: 1534px;
+	height: 714px;
+	left: 0px;
+	top: 0px;
+}
+#Logo_Header {
+	position: absolute;
+	width: 340px;
+	height: 147px;
+	left: 597px;
+	top: 139px;
+	overflow: visible;
+}
+#Ellipse_1 {
+	fill: rgba(255,255,255,0);
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 230px;
+	height: 124px;
+	left: 54px;
+	top: 6px;
+}
+#Make_your_cv_Online {
+	opacity: 0.6;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 341px;
+	white-space: nowrap;
+	line-height: 60px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,0,0,1);
+}
+
+
+/*for the headder*/
+
+
+#Header {
+	position: absolute;
+	width: 100%;
+	height: 66px;
+	left: 64px;
+	top: 37px;
+	overflow: visible;
+}
+#Make_your_cv_Online-1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 149px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	/*color: rgba(245,245,245,1);*/
+	color: yellow;
+}
+#LOGO_link{
+	color: yellow;
+	text-decoration: none;
+	text-align: center;
+	font-family: Segoe cursive;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+}
+#nav_bar {
+	
+	width: 100%;
+	height: 33px;
+	float: right;
+	margin-top: 10px;
+	overflow: visible;
+	text-align: right;
+	padding-right: 7%;
+}
+.ul{
+	
+	
+
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgba(245,245,245,1);
+	
+	display: inline;
+	
+	transition: 1s;
+}
+.ul_link{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+
+
+
+/*done*/
+
+
+#upload_download_sharing_postul {
+	position: absolute;
+	left: 365.5px;
+	top: 553.5px;
+	overflow: visible;
+	width: 863px;
+	white-space: nowrap;
+	line-height: 59px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 49px;
+	color: rgba(255,0,0,1);
+}
+#Button_subscribe {
+	position: absolute;
+	width: 227px;
+	height: 89px;
+	left: 40%;
+	top: 377px;
+	overflow: visible;
+	text-align: center;
+}
+
+
+
+.Subscribe {
+	position: absolute;
+	left: 31.5px;
+	top: 12.5px;
+	overflow: visible;
+	width: 173px;
+	white-space: nowrap;
+	line-height: 44px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	color: rgba(8,255,0,1);
+}
+#Subscribe{
+	float: left;
+	width:200px;
+	height: 70px;
+	margin-left: 20px;
+	background-color : -moz-linear-gradient(top,#aD28E08 0%,#7FF7B00 100%);
+	background-color : -wibkit-linear-gradient(top,#aD28E08 0%,#7FF7B00 100%);
+	background-color : linear-gradient(top,#aD28E08 0%,#7FF7B00 100%);
+	background-image: linear-gradient(to right top,yellow 50%,green 100%);
+	border: none;
+	border-color: none;
+	border-radius: 20px;
+	border-bottom-style: outset;
+	font-family: fantasy;
+	text-align: center;
+	font-size: 20px; 
+}
+#a_Subscribe{
+	text-align: center;
+}
+
+
+
+#what_s_our_job {
+	position: absolute;
+	width: 1380.5px;
+	height: 875.545px;
+	left: 78.5px;
+	top: 836.5px;
+	overflow: visible;
+}
+#barrier {
+	position: absolute;
+	width: 414.995px;
+	height: 817.16px;
+	left: 463.896px;
+	top: 58.385px;
+	overflow: visible;
+}
+#Path_5 {
+	fill: url(#LinearGradientFill2);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_5 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 111.355px;
+	left: 197.868px;
+	width: 34.885px;
+	height: 588.811px;
+}
+#Path_4 {
+	filter: drop-shadow(20px 20px 20px rgba(28, 255, 187, 1));
+	fill: url(#LinearGradientFill3);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_4 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 55.42px;
+	width: 420.585px;
+	height: 265.805px;
+}
+#Path_7 {
+	filter: drop-shadow(20px 20px 20px rgba(28, 255, 187, 1));
+	fill: url(#LinearGradientFill4);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_7 {
+	transform: rotate(182deg);
+	overflow: visible;
+	position: absolute;
+	top: 602.865px;
+	left: 0px;
+	width: 428.322px;
+	height: 275.837px;
+}
+#what_is_our_job_ {
+	opacity: 0.58;
+	position: absolute;
+	left: 545px;
+	top: 0px;
+	overflow: hidden;
+	width: 312px;
+	height: 87px;
+	line-height: 44px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(255,255,255,1);
+}
+#Service_Cloude {
+	position: absolute;
+	left: 0px;
+	top: 151.449px;
+	overflow: hidden;
+	width: 318px;
+	height: 92px;
+	line-height: 44px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(255,255,255,1);
+}
+#API_and_security_ {
+	position: absolute;
+	left: 1050px;
+	top: 151.449px;
+	overflow: hidden;
+	width: 318px;
+	height: 92px;
+	line-height: 44px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(255,255,255,1);
+}
+#Our_System_provide_you_the_abi {
+	position: absolute;
+	left: 90.5px;
+	top: 334.029px;
+	overflow: visible;
+	width: 425px;
+	white-space: nowrap;
+	line-height: 44px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,0,196,1);
+}
+#our_system_shall_to_organise_y {
+	position: absolute;
+	left: 856.5px;
+	top: 323.029px;
+	overflow: visible;
+	width: 525px;
+	white-space: nowrap;
+	line-height: 44px;
+	margin-top: -7px;
+	text-align: left;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(255,0,196,1);
+}
+#Make_cv {
+	position: absolute;
+	width: 885.5px;
+	height: 168px;
+	left: 307.5px;
+	top: 2041.5px;
+	overflow: visible;
+}
+#Button_subscribe_A8_Group_9 {
+	position: absolute;
+	width: 189.113px;
+	height: 89px;
+	left: 696.387px;
+	top: 54.5px;
+	overflow: visible;
+}
+#Path_8 {
+	fill: url(#LinearGradientFill5);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_8 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 189.113px;
+	height: 89px;
+}
+#_ {
+	position: absolute;
+	left: 72.613px;
+	top: 12.5px;
+	overflow: visible;
+	width: 23px;
+	white-space: nowrap;
+	line-height: 44px;
+	margin-top: -3.5px;
+	text-align: center;
+	font-family: Segoe Print;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 37px;
+	color: rgba(8,255,0,1);
+}
+#Make_your_own_cv__right_now {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 559px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 63px;
+	color: rgba(0,255,177,1);
+}
