@@ -16,13 +16,26 @@
         <property name="connection.pool_size">10</property>
 
         <!-- Select our SQL dialect -->
-        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
 
         <!-- Echo the SQL to stdout -->
         <property name="show_sql">true</property>
 
 		<!-- Set the current session context -->
 		<property name="current_session_context_class">thread</property>
+		
+		<property name="hibernate.hbm2ddl.auto">update</property>
+		
+		<!--  
+		<mapping class="com.Cv_Med.Hibernet.User" />
+		<mapping class="com.Cv_Med.Hibernet.Cv" />
+		<mapping class="com.Cv_Med.Hibernet.InfoPersonal" />
+		<mapping class="com.Cv_Med.Hibernet.Formation" />
+		<mapping class="com.Cv_Med.Hibernet.Competence" />
+		<mapping class="com.Cv_Med.Hibernet.Language" />
+		<mapping class="com.Cv_Med.Hibernet.Leisur" />
+		<mapping class="com.Cv_Med.Hibernet.Project" />
+	-->
  
     </session-factory>
 
